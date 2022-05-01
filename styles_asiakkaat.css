@@ -6,6 +6,7 @@ body {
 table#Asiakkaat {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
+    color: bisque;
 }
 
 table#Asiakkaat td,
