@@ -1,2 +1,0 @@
-# marjokoykka.github.io
-web

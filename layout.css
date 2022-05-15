@@ -1,18 +1,18 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     font-size: 100%;
-    font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif;
 }
 
-#page{
+#page {
     max-width: 90%;
-    margin-left: 5% ;
-    margin-right: 5% ;
-    background-color:yellow;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: yellow;
     height: 600px;
 }
 
-#header{
+#header {
     padding: 2em;
     background-color: #575757;
     color: #F0EBEB;
@@ -21,7 +21,8 @@ body{
     letter-spacing: 0.187em;
 }
 
-#nav, #footer{
+#nav,
+#footer {
     height: 1.875em;
     background-color: #E49A2F;
     color: #F7F5EE;
@@ -41,7 +42,7 @@ body{
     overflow: auto;
 }
 
-#content_left{
+#content_left {
     width: 40%;
     background-color: #f7f5ee;
     border: 1px solid #AC9675;
@@ -56,7 +57,7 @@ body{
     line-height: 1.5em;
 }
 
-#content_right{
+#content_right {
     width: 40%;
     background-color: #f7f5ee;
     border: 1px solid #AC9675;
@@ -64,29 +65,31 @@ body{
     margin-right: 3em;
     margin-bottom: 3em;
     margin-left: 0.5em;
-    float:right;
+    float: right;
     overflow: hidden;
     padding: 1.5em;
     border-radius: 5%;
     line-height: 1.5em;
 }
 
-#footer{
-    clear:both;
+#footer {
+    clear: both;
 }
 
-img{
+img {
     width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
-.kuva{
+.kuva {
     display: block;
 }
 
-h1, h2, h2{
+h1,
+h2,
+h2 {
     color: #E49A2F;
     text-indent: 50px;
 }
@@ -94,33 +97,33 @@ h1, h2, h2{
 ul {
     list-style-type: none;
     margin: 0;
-    padding:0;
+    padding: 0;
     overflow: hidden;
     background-color: #E49A2F;
     text-align: center;
-  }
-  
-  li {
+}
+
+li {
     display: inline;
-  }
-  
-  li a {
+}
+
+li a {
     display: inline-block;
     color: white;
     text-align: center;
     text-decoration: none;
     height: 1.875em;
-    
-  }
-  
-  a:hover:not(.active) {
-    background-color:#c7a87c;
-  }
-  
-  .active {
-    background-color:#885c20;
-  }
-  
-  span {
-      color: black;
-  }
+
+}
+
+a:hover:not(.active) {
+    background-color: #c7a87c;
+}
+
+.active {
+    background-color: #885c20;
+}
+
+span {
+    color: black;
+}
