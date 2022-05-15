@@ -1,0 +1,86 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#page {
+    width: 958px;
+    background-color: burlywood;
+    height: 658px;
+    margin: 0 auto;
+    border: 1px dashed black;
+}
+
+#header {
+    background-color: chocolate;
+    height: 80px;
+    width: 958px;
+}
+
+#header_logo,
+#header_center,
+#header_right {
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    color: cornsilk;
+}
+
+#header_logo {
+    width: 268px;
+    height: 38px;
+    background-color: darkgoldenrod;
+}
+
+#header_center {
+    width: 296px;
+    height: 38px;
+    background-color: darksalmon;
+}
+
+#header_right {
+    width: 268px;
+    height: 38px;
+    background-color: goldenrod;
+}
+
+#menu {
+    width: 956px;
+    height: 25px;
+    float: left;
+    text-align: center;
+    color: cornsilk;
+    background-color: darkorange;
+    border: 1px dashed black;
+    padding-top: 3px;
+}
+
+#content {
+    background-color: darksalmon;
+}
+
+#content_left,
+#content_right {
+    background-color: lightgoldenrodyellow;
+    border: 2px solid saddlebrown;
+    float: left;
+    width: 343px;
+    height: 188px;
+    padding: 25px;
+    margin: 40px;
+    border-radius: 10%;
+}
+
+#footer {
+    float: left;
+    background-color: sienna;
+    color: black;
+    text-align: center;
+    height: 23px;
+    width: 956px;
+    padding-top: 5px;
+    border: 1px solid black;
+}
